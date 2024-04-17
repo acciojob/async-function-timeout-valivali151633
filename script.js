@@ -16,7 +16,7 @@ async function displayMessage(text , delay){
  await new Promise ((resolve , reject) => {
     setTimeout(()=> {
       resolve(document.getElementById("output").innerText = text)
-    }, delayTime*1000);
+    }, delayTime);
 
   })
 
